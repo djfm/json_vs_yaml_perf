@@ -13,7 +13,7 @@ function generate_random_string()
     return md5(rand());
 }
 
-function generate_complex_array(array $nodesPerLayer=array(15,5,5))
+function generate_complex_array(array $nodesPerLayer=array(5,5,5,5))
 {
     $layer = [];
     $n = array_shift($nodesPerLayer);
