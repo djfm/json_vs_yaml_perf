@@ -1,0 +1,13 @@
+{
+    "name": "fram/json_vs_yaml",
+    "description": "A simple benchmark of yaml speed vs json in php",
+    "authors": [
+        {
+            "name": "djfm",
+            "email": "fm.de.jouvencel@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "^3.0"
+    }
+}
